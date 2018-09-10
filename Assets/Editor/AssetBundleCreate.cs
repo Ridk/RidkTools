@@ -97,7 +97,7 @@ public class AssetBundleCreate : EditorWindow
         {
             EditorGUILayout.HelpBox(message, msgType);
         }
-
+        //TODO  是否实现点击按钮打开资源文件夹
         //System.Diagnostics.Process.Start("explorer.exe", v_OpenFolderPath);
         Repaint();
     }
@@ -105,8 +105,7 @@ public class AssetBundleCreate : EditorWindow
     private void BuildAssetBundle(BuildTarget target, BuildAssetBundleOptions babo)
     {
         if (isSingle)
-            BuildPipeline.BuildAssetBundles(CheckPath("Assets/AssetsBundle/" + target), GetAssetBundleBuilds(), babo,
-                target);
+            BuildPipeline.BuildAssetBundles(CheckPath("Assets/AssetsBundle/" + target), GetAssetBundleBuilds(), babo , target);
         else
             BuildPipeline.BuildAssetBundles(CheckPath("Assets/AssetsBundle/" + target), babo, target);
 

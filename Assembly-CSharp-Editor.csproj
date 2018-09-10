@@ -58,9 +58,6 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\AssetBundleCreate.cs" />
     <Compile Include="Assets\Editor\RidkNetworkEditor.cs" />
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/Unity/RidkTools/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/Unity/RidkTools/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -330,21 +327,6 @@
     </Reference>
     <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
       <HintPath>E:/Unity/RidkTools/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Analytics">
-      <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

@@ -15,7 +15,7 @@ namespace Ridk
         //string url="https://api.stschool.cn/course/get_resource_detail?resId=7090";
         private string requestData;
 
-        private string url = "https://danbooru.donmai.us/posts.json";
+        public string url = "https://danbooru.donmai.us/posts.json";
 
         public string RequestData
         {

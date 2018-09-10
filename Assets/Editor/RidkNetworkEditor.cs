@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEditor;
 using UnityEngine;
-using UnityEditor;
 
 namespace Ridk
 {
@@ -12,16 +10,14 @@ public class RidkNetworkEditor : Editor
 	private RidkNetwork _ridkNetwork;
 	private void Awake()
 	{
-		_ridkNetwork=target as RidkNetwork;
+		_ridkNetwork =(RidkNetwork)serializedObject.targetObject;
 	}
 
 	public override void OnInspectorGUI()
 	{
 		EditorGUILayout.BeginVertical();
-		EditorGUILayout.Space();
-		EditorGUILayout.Space();
-		EditorGUILayout.Space();
-		EditorGUILayout.SelectableLabel("开始布局");
+		GUI.backgroundColor=Color.red;
+	
 		EditorGUILayout.EndVertical();
 	}
 
