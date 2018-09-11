@@ -30,7 +30,7 @@ public class AssetBundleCreate : EditorWindow
         AssetBundleCreate window = (AssetBundleCreate) GetWindow(typeof(AssetBundleCreate), false, "Ridk");
         window.Show();
     }
-    private void OnGUI()
+  private void OnGUI()
     {
         EditorGUILayout.Space();
         abName =
